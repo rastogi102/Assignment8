@@ -20,12 +20,15 @@ namespace ConAppAssignment8
             switch (employeeType)
             {
                 case 1:
+                    Console.WriteLine("1. HR");
                     CalculateSalaryForHR();
                     break;
                 case 2:
+                    Console.WriteLine("2. ADMIN");
                     CalculateSalaryForAdmin();
                     break;
                 case 3:
+                    Console.WriteLine("3. SOFTWARE DEVELOPER");
                     CalculateSalaryForSoftwareDeveloper();
                     break;
                 default:
